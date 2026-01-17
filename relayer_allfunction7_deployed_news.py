@@ -6,7 +6,7 @@ from eth_account import Account
 # =========================================================
 RPC_URL = "https://optimism-mainnet.infura.io/v3/a5afabd83b0c4f39a887ca9472bade51"
 CHAIN_ID = 10  # Optimism
-PRIVATE_KEY = "1f30a133bcda1193bbefb237d4c2dcd5b9856a30c14fe439e46ec52b9e86b8f2"
+PRIVATE_KEY = ""
 
 # Connect account and Web3
 w3 = Web3(Web3.HTTPProvider(RPC_URL))
