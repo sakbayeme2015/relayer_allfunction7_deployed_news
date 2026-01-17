@@ -4,7 +4,7 @@ from eth_account import Account
 # =========================================================
 # CONFIG
 # =========================================================
-RPC_URL = "https://optimism-mainnet.infura.io/v3/a5afabd83b0c4f39a887ca9472bade51"
+RPC_URL = ""
 CHAIN_ID = 10  # Optimism
 PRIVATE_KEY = ""
 
@@ -17,7 +17,7 @@ print(f"Using owner account: {SENDER}")
 # =========================================================
 # CONTRACT
 # =========================================================
-CONTRACT_ADDRESS = Web3.to_checksum_address("0xe0fb171F4288dEa7Cd7B9C55471C15652b614Acd")
+CONTRACT_ADDRESS = Web3.to_checksum_address("")
 
 ABI = [
     # ================= CORE TOKEN / USD LOGIC =================
